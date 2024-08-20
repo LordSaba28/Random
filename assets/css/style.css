@@ -1,0 +1,358 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+#page-header{
+    background-image: linear-gradient(120deg, white, white, gray);
+    color: white;
+    text-shadow:0px 6px 4px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+#page-header .logo img{
+    width: 470px;
+    margin-left: 0px;
+}
+#navbar{
+    background-color: dimgray;
+}
+#navbar ul{
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+#navbar ul li{
+    float: left;
+}
+#navbar ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 13px 16px;
+    text-align: center;
+    display: block;
+    text-shadow:0px 6px 4px gray;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+    text-shadow:0px 6px 4px gray;
+}
+#active{
+    background-color: black;
+    text-shadow:0px 6px 4px white;
+}
+#page-body #Welcome #btn-learn:hover{
+    background-color: black;
+    color: gold;
+    border: 1px solid black;
+    transition: 1.0s ease-in-out;
+    text-shadow:0px 6px 4px white;
+}
+#page-body #Welcome #assignment ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+#page-body #Welcome #assignment ul li{
+    float: left;
+    color: white;
+    text-decoration: none;
+    padding: 13px 16px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 4%;
+    right: 200px;
+    text-shadow:0px 6px 4px black;
+}
+#page-body #Welcome #assignment ul li.two{
+    float: left;
+    color: white;
+    text-decoration: none;
+    padding: 13px 16px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 80px;
+    right: 230px;
+    text-shadow:0px 6px 4px black;
+}
+#page-body #Welcome #assignment ul li.three{
+    float: left;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 80px;
+    right: 260px;
+    text-shadow:0px 6px 4px black;
+}
+#page-body #Welcome #assignment ul li.four{
+    float: left;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 80px;
+    right: 290px;
+    text-shadow:0px 6px 4px black;
+}
+#page-body #Welcome #assignment ul li.five{
+    float: left;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 80px;
+    right: 320px;
+    text-shadow:0px 6px 4px black;
+}
+#page-body #Welcome #assignment ul li.six{
+    float: left;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 80px;
+    right: 350px;
+    text-shadow:0px 6px 4px black;
+}
+#page-body section#Welcome{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.491);
+    background-image: url("../image/logo/IMG-20220713-WA0005.jpg");
+    background-position: top ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 56vh;
+    position: relative;
+}
+#page-body section#Welcome #blur{
+    height: 56vh;
+    width: 100%;
+    backdrop-filter: blur(2px);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#page-body #Welcome #welcome-text{
+    text-align: center;
+    position: absolute;
+    color: white;
+    text-shadow:0px 6px 4px black;
+    top: 40%;
+    right: 11%;
+    font-size: 3vh;
+    z-index: 999;
+}
+#page-body #Welcome #btn-learn{
+    display: block;
+    padding: 20px 40px;
+    border:none;
+    outline: none;
+    width: 200px;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    position: absolute;
+    right: 14%;
+    top: 60%;
+    font-size: 1em;
+    border: 1px solid white;
+    text-shadow:0px 6px 4px black;
+    text-align: center;
+}
+#page-body #Welcome #btn-learn:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    transition: 1.0s ease-in-out;
+}
+.col-lg-4.bg-light.me-5.ms-5.mb-5.mt-5.p-5.text-dark{
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 0px 6px 4px black;
+    position: relative;
+    left: 30%;
+}
+.col-lg-4.bg-light.me-5.ms-5.mb-5.mt-5.p-5.text-dark h2{
+    text-align: center;
+}
+.col-lg-12.bg-black.text-white{
+    justify-items: center;
+}
+.col-lg-12.bg-black.text-white div ul{
+    list-style-type: none;
+}
+@media screen and (max-width:450px){
+    #page-header #logo img{
+        width: 100px;
+        height: 100px;
+        margin-left: 0px;
+    }
+    .navbar{
+        background-color: dimgray;
+    }
+    .navbar ul{
+        list-style-type: none;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
+    .navbar ul li{
+        float: center;
+    }
+    .navbar ul li a{
+        color: white;
+        text-decoration: none;
+        padding: 13px 16px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .navbar ul li a:hover{
+        color: black;
+        background-color: white;
+        text-decoration: none;
+        transition: 0.5s ease-in-out;
+        text-shadow:0px 6px 4px gray;
+    }
+    .active{
+        background-color: black;
+        text-shadow:0px 6px 4px white;
+    }
+    .page-body .Welcome .btn-learn:hover{
+        background-color: black;
+        color: gold;
+        border: 1px solid black;
+        transition: 1.0s ease-in-out;
+    }
+    .page-body .Welcome .assignment ul{
+        list-style-type: none;
+        overflow: hidden;
+    }
+    .page-body .Welcome .assignment ul li{
+        float: left;
+        color: white;
+        text-decoration: none;
+        padding: 13px 16px;
+        text-align: center;
+        display: block;
+        position: absolute;
+        top: 40px;
+        right: 200px;
+        text-shadow:0px 6px 4px black;
+    }
+    .page-body .Welcome .assignment ul li.two{
+        float: left;
+        color: white;
+        text-decoration: none;
+        padding: 13px 16px;
+        text-align: center;
+        display: block;
+        position: absolute;
+        top: 80px;
+        right: 230px;
+        text-shadow:0px 6px 4px black;
+    }
+    .page-body .Welcome .assignment ul li.three{
+        float: left;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        display: block;
+        position: absolute;
+        top: 80px;
+        right: 260px;
+        text-shadow:0px 6px 4px black;
+    }
+    .page-body .Welcome .assignment ul li.four{
+        float: left;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        display: block;
+        position: absolute;
+        top: 80px;
+        right: 290px;
+        text-shadow:0px 6px 4px black;
+    }
+    .page-body .Welcome .assignment ul li.five{
+        float: left;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        display: block;
+        position: absolute;
+        top: 80px;
+        right: 320px;
+        text-shadow:0px 6px 4px black;
+    }
+    .page-body .Welcome .assignment ul li.six{
+        float: left;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        display: block;
+        position: absolute;
+        top: 80px;
+        right: 350px;
+        text-shadow:0px 6px 4px black;
+    }
+    .page-body section.Welcome{
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.491);
+        background-image: url("../image/logo/IMG-20220713-WA0005.jpg");
+        background-position: top ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 56vh;
+        position: relative;
+    }
+    .page-body section.Welcome .blur{
+        height: 56vh;
+        width: 100%;
+        backdrop-filter: blur(2px);
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    .page-body .Welcome .welcome-text{
+        text-align: center;
+        position: absolute;
+        color: white;
+        text-shadow:0px 6px 4px black;
+        top: 40%;
+        right: 5%;
+        font-size: 3vh;
+        z-index: 999;
+    }
+    .page-body .Welcome .btn-learn{
+        display: block;
+        padding: 20px 40px;
+        border:none;
+        outline: none;
+        width: 200px;
+        color: white;
+        text-decoration: none;
+        border-radius: 30px;
+        position: absolute;
+        right: 180px;
+        top: 65%;
+        font-size: 1em;
+        border: 1px solid white;
+    }
+    .page-body .Welcome .btn-learn:hover{
+        background-color: black;
+        color: white;
+        border: 1px solid white;
+        transition: 1.0s ease-in-out;
+    }
+    
+    
+}
